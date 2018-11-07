@@ -14,7 +14,7 @@ class MyTest(unittest.TestCase):
         self.assertEqual(inc(100),101)
         self.assertEqual(inc(1), 2)
         self.assertEqual(inc(-1), 0)
-        self.assertEqual(inc(4), 4)
+        #self.assertEqual(inc(4), 4)
         
         
 if __name__=='__main__':
